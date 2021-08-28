@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animes</title>
+    <link rel="icon" href="img/dbz.png">
+    
+    <!--------------------Inicio(CSS)---------------------->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/animes.css">
+    <!--------------------Fim(CSS)---------------------->
+
+    <!--------------------Inicio(JavaScript)-------------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!--------------------Fim(JavaScript)-------------------->
+</head>
+<body>
+    <!--------------------Inicio(NavBar)-------------------->
+    <nav class="navbar navbar-expand-md navbar-custom navbar-dark">
+        <a class="navbar-brand" href="index.html">Pagina Incial</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span><i class="fas fa-chevron-circle-down"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="jogos.html">
+                    <h5>1° Hobby: Jogos</h5>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cozinhar.html">
+                    <h5>3° Hobby: Assistir</h5>
+                </a>
+            </li>
+        </div>
+    </nav>
+    <!--------------------Fim(NavBar)-------------------->
+
+    <!--Inicio(Titulo)-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Sessão de Animes</h1>
+            </div>
+    <!--Fim(Titulo)-->
+
+    <!--Inicio(Subtitulo)-->
+            <div class="col-md-12">
+                <h3 id="subTop">Top 7 - Lista de Animes</h3>
+            </div>
+        </div>
+    <!--Fim(Subtitulo)-->
+
+    <!--Inicio(Conteúdo)-->
+        <div class="row" >
+            <div class="col-md-6">
+                <h3>1° Dragon Ball Z</h3>
+                <img src="img/animes/dragonBall.jpg" alt="" id="dragonBall">
+            </div>
+
+            <div class="col-md-6">
+                <h3>2° Naruto</h3>
+                <img src="img/animes/naurto.jpg" alt="" id="naruto">
+            </div>
+
+            <div class="col-md-6">
+                <h3>3° Demon Slayer</h3>
+                <img src="img/animes/Demon-Slayer.jpg" alt="" id="bleach">
+            </div>
+
+            <div class="col-md-6">
+                <h3>4° One Piece</h3>
+                <img src="img/animes/onePiece.jpg" alt="" id="onePiece">
+            </div>
+
+            <div class="col-md-6">
+                <h3>5° Death Note</h3>
+                <img src="img/animes/deathNote.jpg" alt="" id="deathNote">
+            </div>
+
+            <div class="col-md-6">
+                <h3>6° Tokyo Ghoul</h3>
+                <img src="img/animes/tokyoGhoul.jpg" alt="" id="tokyoGhoul">
+            </div>
+
+            <div class="col-md-6">
+                <h3>7° Shingeki no Kyojin (Attack on Titan)</h3>
+                <img src="img/animes/attackTitan.jpg" alt="" id="attackTitan">
+            </div>
+            </div>
+        </div>
+    </div>
+    <!--Fim(Conteúdo)-->
+    
+    <!--Inicio(FooterLinks)-->
+    <footer class="page-footer">
+        <div class="footer-copyright">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h5>Minhas Redes Sociais</h5>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="https://api.whatsapp.com/send?phone=5513991222567&text=Oi%20Juliana%2C%20tudo%20bem%3F" id="textWhatsApp" target="blank">
+                        <button class="btn" id="btnWhatsApp">
+                            <img src="img/whatsapp.png" alt="" id="footerWhatsApp"> WhatsApp
+                        </button>
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="https://github.com/juhriber" id="textGithub" target="blank">
+                        <button class="btn" id="btnGithub">
+                            <img src="img/github.png" alt="" id="footerGithub"> Github
+                        </button>
+                    </a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--Fim(FooterLinks)-->
+    
+    <!--Inicio(FooterCopyright)-->
+    <footer id="copyFooter">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                  <h6 id="textFooter">&copy;Juliana Ribeiro - Mongaguá/2021</h6>
+              </div>
+            </div>
+        </div>
+    </footer>
+    <!--Fim(FooterCopyright)-->
+</body>
+</html>
