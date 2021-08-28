@@ -1,0 +1,447 @@
+/*Tag - Jogos*/
+body
+{
+    background-image: url(https://i.pinimg.com/originals/3a/61/d9/3a61d9579abb99124f61c8cb0be93d39.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1
+{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+}
+h4
+{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+h3
+{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    margin-top: 2%;
+}
+
+h5
+{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+h6
+{
+    text-align: center;
+}
+/*Tag - Jogos*/
+
+/*Class - Jogos */
+.navbar-custom
+{
+    background-color: rgb(22, 22, 39);
+    box-shadow: 0 3px 6px black;
+}
+
+.navbar-brand:hover
+{
+    background-color: rgb(0, 39, 148);
+    border-radius: 5px;
+    transition: 0.5s;
+    text-shadow: 0 3px 6px black;
+}
+
+.navbar-brand:active
+{
+    background-color: rgb(36, 103, 228);
+}
+.navbar-toggler
+{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 3px 6px black;
+}
+
+.navbar-toggler:active
+{
+    background-color: rgb(39, 39, 39);
+    box-shadow: 0 3px 6px black;
+}
+.nav-link
+{
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.nav-link:hover
+{
+    background-color: rgb(0, 39, 148);
+    border-radius: 10px;
+    text-shadow: 0 3px 6px black;
+}
+.nav-link:hover:active
+{
+    background-color: rgb(36, 103, 228);
+}
+
+.col-md-4
+{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+/*Class - Jogos */
+
+/*Id - Jogos*/
+#capaJogo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    box-shadow: 0 3px 6px black;
+    border-radius: 10px;
+}
+
+#telaInicial
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    box-shadow: 0 3px 6px black;
+    border-radius: 10px;
+}
+
+#selecaoJogo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    box-shadow: 0 3px 6px black;
+    border-radius: 10px;
+}
+#textJogo
+{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#ssFace
+{
+    width: 30%;
+}
+
+#imgDmcHd
+{
+    width: 25%;
+    border-radius: 50px;
+}
+#btnFaceKotz
+{
+    background-color: rgb(2, 17, 49);
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#btnFaceKotz:hover
+{
+    background-color: rgb(3, 36, 109);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnFaceKotz:active
+{
+    background-color: rgb(10, 69, 196);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#linkJogo1
+{
+    width: 25%;
+    border-radius: 50%;
+}
+
+#imgDmc
+{
+    width: 25%;
+    border-radius: 50%;
+}
+
+
+#btnLinkJogo1
+{
+    background-color: rgb(134, 46, 12);
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+    margin-top: 2%;
+}
+
+#btnLinkJogo1:hover
+{
+    background-color: rgb(172, 90, 23);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnLinkJogo1:active
+{
+    background-color: rgb(196, 115, 10);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnLinkJogo2
+{
+    background-color: rgb(58, 57, 57);
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+    margin-top: 2%;
+}
+
+#btnLinkJogo2:hover
+{
+    background-color: rgb(38, 72, 116);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnLinkJogo2:active
+{
+    background-color: rgb(83, 22, 22);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+#btnDMCHD
+{
+    background-color: rgb(49, 2, 2);
+    border-radius: 500px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#btnDMCHD:hover
+{
+    background-color: rgb(109, 3, 3);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnDMCHD:active
+{
+    background-color: rgb(148, 40, 40);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnDMC
+{
+    background-color: rgb(116, 99, 5);
+    border-radius: 500px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+    margin-top: 2%;
+}
+
+#btnDMC:hover
+{
+    background-color: rgb(172, 145, 23);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnDMC:active
+{
+    background-color: rgb(235, 196, 69);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#centerLink
+{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navAnime, #navCozinha
+{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+/*Footer*/
+#footerFacebook
+{
+    width: 15%;
+    
+}
+
+#btnFacebook
+{
+    background-color: rgb(2, 17, 49);
+    border-radius: 500px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnFacebook:hover
+{
+    background-color: rgb(3, 36, 109);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnFacebook:active
+{
+    background-color: rgb(10, 69, 196);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#footerWhatsApp
+{
+    width: 15%;
+}
+
+#btnWhatsApp
+{
+    background-color: rgb(7, 49, 2);
+    border-radius: 500px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnWhatsApp:hover
+{
+    background-color: rgb(7, 109, 3);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnWhatsApp:active
+{
+    background-color: rgb(7, 196, 32);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#textWhatsApp
+{
+    text-decoration: none;
+}
+
+#footerGithub
+{
+    width: 15%;
+}
+
+#btnGithub
+{
+    background-color: rgb(27, 27, 27);
+    border-radius: 500px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnGithub:hover
+{
+    background-color: rgb(80, 80, 80);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnGithub:active
+{
+    background-color: rgb(119, 119, 119);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+#textGithub
+{
+    text-decoration: none;
+}
+
+#copyFooter
+{
+    background-color: rgb(5, 11, 24);
+    color: white;
+}
+
+#textFooter
+{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+/*Footer*/
+/*Id - Jogos*/

@@ -1,0 +1,238 @@
+/*@*/
+@keyframes gradient {
+	0% 
+    {
+		background-position: 0% 0%;
+	}
+	100% 
+    {
+		background-position: 100% 0%;
+	}
+}
+/*@*/
+
+/*Tag*/
+body
+{
+    background-image: url(https://i.pinimg.com/originals/1b/ac/63/1bac63e8343a2ce6591e168e12ad618e.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h3, p
+{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+}
+
+h3
+{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+p
+{
+    margin-top: 2vh;
+}
+
+button
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h5
+{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+h6
+{
+    text-align: center;
+}
+/*Tag*/
+
+/*Class*/
+.col-md-4
+{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+/*Class*/
+
+/*Id*/
+#virgemHome
+{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    box-shadow: 0 3px 6px yellow;
+}
+
+#botao1
+{
+    background: linear-gradient(90deg, red, blue, red, blue);
+    background-size: 300% 100%;
+	animation: gradient 3s infinite linear;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    padding-left: 25%;
+    padding-right: 25%;
+    box-shadow: 0 3px 6px black;
+}
+
+#botao2
+{
+    background: linear-gradient(90deg, green, rgb(190, 178, 8), green, rgb(190, 178, 8));
+    background-size: 300% 100%;
+	animation: gradient 3s infinite linear;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    padding-left: 25%;
+    padding-right: 25%;
+    box-shadow: 0 3px 6px black;
+    
+}
+
+#botao3
+{
+    background: linear-gradient(90deg, gray, black, gray, black);
+    background-size: 300% 100%;
+	animation: gradient 3s infinite linear;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    padding-left: 25%;
+    padding-right: 25%;
+    box-shadow: 0 3px 6px black;
+}
+
+#footerFacebook
+{
+    width: 15%;
+    
+}
+
+#btnFacebook
+{
+    background-color: rgb(2, 17, 49);
+    border-radius: 500px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnFacebook:hover
+{
+    background-color: rgb(3, 36, 109);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnFacebook:active
+{
+    background-color: rgb(10, 69, 196);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+
+#footerWhatsApp
+{
+    width: 15%;
+}
+
+#btnWhatsApp
+{
+    background-color: rgb(7, 49, 2);
+    border-radius: 500px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnWhatsApp:hover
+{
+    background-color: rgb(7, 109, 3);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnWhatsApp:active
+{
+    background-color: rgb(7, 196, 32);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#textWhatsApp
+{
+    text-decoration: none;
+}
+
+#footerGithub
+{
+    width: 15%;
+}
+
+#btnGithub
+{
+    background-color: rgb(27, 27, 27);
+    border-radius: 500px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnGithub:hover
+{
+    background-color: rgb(80, 80, 80);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnGithub:active
+{
+    background-color: rgb(119, 119, 119);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+#textGithub
+{
+    text-decoration: none;
+}
+
+#copyFooter
+{
+    background-color: rgb(5, 11, 24);
+    color: white;
+}
+
+#textFooter
+{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+/*Id*/

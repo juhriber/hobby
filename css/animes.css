@@ -1,0 +1,227 @@
+/*Tag - Animes*/
+body
+{
+    background-image: url(https://wallpaperaccess.com/full/1121980.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1
+{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+}
+
+h3
+{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+}
+
+h5
+{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    margin-top: 2%;
+}
+
+h6
+{
+    text-align: center;
+}
+/*Tag - Animes*/
+
+/*Class - Animes*/
+.navbar-custom
+{
+    background-color: rgb(22, 22, 39);
+    box-shadow: 0 3px 6px black;
+}
+
+.navbar-brand:hover
+{
+    background-color: rgb(0, 39, 148);
+    border-radius: 5px;
+    transition: 0.5s;
+    text-shadow: 0 3px 6px black;
+}
+
+.navbar-brand:active
+{
+    background-color: rgb(36, 103, 228);
+}
+.navbar-toggler
+{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 3px 6px black;
+}
+
+.navbar-toggler:active
+{
+    background-color: rgb(39, 39, 39);
+    box-shadow: 0 3px 6px black;
+}
+.nav-link
+{
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.nav-link:hover
+{
+    background-color: rgb(0, 39, 148);
+    border-radius: 10px;
+    text-shadow: 0 3px 6px black;
+}
+.nav-link:hover:active
+{
+    background-color: rgb(36, 103, 228);
+}
+
+.col-md-4
+{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+/*Class - Animes*/
+
+/*Id - Animes*/
+#dragonBall, #naruto, #bleach, #onePiece, #deathNote, #tokyoGhoul, #attackTitan, #uzaki, #demonAcademy, #bakugan
+{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5vh;
+    box-shadow: 0 3px 6px black;
+}
+
+#footerFacebook
+{
+    width: 15%;
+    
+}
+
+#btnFacebook
+{
+    background-color: rgb(2, 17, 49);
+    border-radius: 500px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnFacebook:hover
+{
+    background-color: rgb(3, 36, 109);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnFacebook:active
+{
+    background-color: rgb(10, 69, 196);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+
+#footerWhatsApp
+{
+    width: 15%;
+}
+
+#btnWhatsApp
+{
+    background-color: rgb(7, 49, 2);
+    border-radius: 500px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnWhatsApp:hover
+{
+    background-color: rgb(7, 109, 3);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnWhatsApp:active
+{
+    background-color: rgb(7, 196, 32);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#textWhatsApp
+{
+    text-decoration: none;
+}
+
+#footerGithub
+{
+    width: 15%;
+}
+
+#btnGithub
+{
+    background-color: rgb(27, 27, 27);
+    border-radius: 500px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnGithub:hover
+{
+    background-color: rgb(80, 80, 80);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+
+#btnGithub:active
+{
+    background-color: rgb(119, 119, 119);
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 0 3px 6px black;
+}
+#textGithub
+{
+    text-decoration: none;
+}
+
+#copyFooter
+{
+    background-color: rgb(5, 11, 24);
+    color: white;
+}
+
+#textFooter
+{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+/*Id - Animes*/
